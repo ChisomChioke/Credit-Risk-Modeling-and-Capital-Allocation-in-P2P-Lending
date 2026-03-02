@@ -2,7 +2,7 @@
 
 ## Project Background
 
-Peer-to-peer lending platforms such as Bondora face a fundamental trade-off between expanding loan origination volume and controlling credit risk. Unlike traditional banks, capital on these platforms is often explicitly constrained, making efficient capital deployment as important as accurate default prediction.
+Peer-to-peer lending platforms deploy over $150 billion globally but struggle with a fundamental trade-off: expanding loan origination while controlling credit risk. Unlike traditional banks, capital on these platforms is often explicitly constrained, making efficient capital deployment as important as accurate default prediction.
 
 This project analyzes ~410,000 historical consumer loans (2009–2024) to develop a machine-learning–driven credit risk framework that goes beyond classification accuracy and directly optimizes portfolio-level financial outcomes. The analysis demonstrates how predictive models can be translated into expected returns, capital allocation decisions, and realized profitability under realistic business constraints.
 
