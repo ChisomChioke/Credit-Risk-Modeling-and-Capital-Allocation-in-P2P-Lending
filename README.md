@@ -12,11 +12,11 @@ The project is designed to mirror how credit models are evaluated and deployed i
 
 The analysis addresses three core business questions:
 
-**1. Prediction:** Can machine learning models meaningfully improve default prediction over interpretable baselines?
+1. **Prediction:** Can machine learning models meaningfully improve default prediction over interpretable baselines?
 
-**2. Decision-making:** How should predicted default probabilities be translated into loan approval decisions?
+2. **Decision-making:** How should predicted default probabilities be translated into loan approval decisions?
 
-**3. Capital allocation:** Given limited capital, which deployment strategies maximize portfolio-level returns?
+3. **Capital allocation:** Given limited capital, which deployment strategies maximize portfolio-level returns?
 
 ## Executive Summary
 
