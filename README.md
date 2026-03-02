@@ -43,7 +43,7 @@ Three supervised learning approaches were evaluated:
 
 ## Executive Summary of Results
 
-## Model Performance
+### Model Performance
 
 + Ensemble models achieve **0.72 ROC-AUC** and **0.52 Average Precision**
 
@@ -59,7 +59,7 @@ Three supervised learning approaches were evaluated:
 
   + Country-level risk differences
 
-## Business Impact
+### Business Impact
 
 Model outputs were converted into **expected return, expected loss, and net expected value per loan**, enabling evaluation of real lending strategies:
 
