@@ -8,9 +8,7 @@ This project analyzes ~410,000 historical consumer loans (2009–2024) to develo
 
 The project is designed to mirror how credit models are evaluated and deployed in professional lending environments: beginning with interpretable baselines, progressing to advanced ensemble models, and ultimately embedding predictions into decision strategies that maximize return on capital.
 
----
-
 ## Executive Summary
 
 ![Capital Allocation Efficiency Frontier](images/capital_allocation_efficiency.png)
-
+_Under binding capital constraints, ranking loans by expected value per euro invested consistently dominates both fixed probability thresholds and absolute expected value selection across all tested budget levels (€25M–€100M)._
