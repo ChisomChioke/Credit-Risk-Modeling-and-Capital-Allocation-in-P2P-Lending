@@ -8,6 +8,16 @@ This project analyzes ~410,000 historical consumer loans (2009–2024) to develo
 
 The project is designed to mirror how credit models are evaluated and deployed in professional lending environments: beginning with interpretable baselines, progressing to advanced ensemble models, and ultimately embedding predictions into decision strategies that maximize return on capital.
 
+## Objectives
+
+The analysis addresses three core business questions:
+
+**1. Prediction:** Can machine learning models meaningfully improve default prediction over interpretable baselines?
+
+**2. Decision-making:** How should predicted default probabilities be translated into loan approval decisions?
+
+**3. Capital allocation:** Given limited capital, which deployment strategies maximize portfolio-level returns?
+
 ## Executive Summary
 
 ![Capital Allocation Efficiency Frontier](images/capital_allocation_efficiency.png)
