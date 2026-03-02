@@ -41,7 +41,45 @@ Three supervised learning approaches were evaluated:
 
 + **Evaluation metrics:** ROC-AUC, Average Precision, calibration diagnostics, and threshold sensitivity
 
-## Executive Summary
+## Executive Summary of Results
+
+## Model Performance
+
++ Ensemble models achieve **0.72 ROC-AUC** and **0.52 Average Precision**
+
++ Represents **+11% AUC** and **+27% AP** improvement over logistic regression (0.65 / 0.41)
+
++ Predictive power is driven primarily by:
+
+  + Interest rate (pricing signal)
+
+  + Credit grade
+
+  + Loan duration
+
+  + Country-level risk differences
+
+## Business Impact
+
+Model outputs were converted into **expected return, expected loss, and net expected value per loan**, enabling evaluation of real lending strategies:
+
++ Threshold-based approval rules achieve up to **28.52% ROI**, more than doubling indiscriminate lending (13.71%)
+
++ Capital-constrained optimization delivers the strongest results:
+
+  + 60.65% ROI on €25M
+
+  + 47.64% ROI on €50M
+
++ Ranking loans by expected value per euro invested consistently outperforms:
+
+  + Fixed probability thresholds
+
+  + Absolute expected value ranking
+
+  + Naïve heuristics (e.g., high interest only, small loans only)
+
+**Key Insight:** Modest improvements in model discrimination translate into **15–45 percentage point gains in ROI** when deployed correctly.
 
 ![Capital Allocation Efficiency Frontier](images/capital_allocation_efficiency.png)
 _Under binding capital constraints, ranking loans by expected value per euro invested consistently dominates both fixed probability thresholds and absolute expected value selection across all tested budget levels (€25M–€100M)._
