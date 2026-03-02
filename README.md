@@ -18,6 +18,29 @@ The analysis addresses three core business questions:
 
 3. **Capital allocation:** Given limited capital, which deployment strategies maximize portfolio-level returns?
 
+## Modeling Approach
+
+Three supervised learning approaches were evaluated:
++ **Logistic Regression** — interpretable baseline aligned with regulatory and explainability requirements
+
+Random Forest — nonlinear ensemble capturing interactions and categorical effects
+
+XGBoost — gradient-boosted trees optimized for predictive performance
+
+Training & Evaluation Design
+
+Time-based split:
+
+Training: 2012–2021 originations
+
+Test: 2022–2024 originations
+
+Prevents temporal leakage common in credit modeling
+
+Class imbalance handling: balanced class weights (training default rate ≈ 55%)
+
+Evaluation metrics: ROC-AUC, Average Precision, calibration diagnostics, and threshold sensitivity
+
 ## Executive Summary
 
 ![Capital Allocation Efficiency Frontier](images/capital_allocation_efficiency.png)
