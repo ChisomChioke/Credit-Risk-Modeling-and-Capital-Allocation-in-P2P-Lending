@@ -23,23 +23,23 @@ The analysis addresses three core business questions:
 Three supervised learning approaches were evaluated:
 + **Logistic Regression** — interpretable baseline aligned with regulatory and explainability requirements
 
-Random Forest — nonlinear ensemble capturing interactions and categorical effects
++ **Random Forest** — nonlinear ensemble capturing interactions and categorical effects
 
-XGBoost — gradient-boosted trees optimized for predictive performance
++ **XGBoost** — gradient-boosted trees optimized for predictive performance
 
-Training & Evaluation Design
+## Training & Evaluation Design
 
-Time-based split:
++ **Time-based split:**
 
-Training: 2012–2021 originations
+  + Training: 2012–2021 originations
 
-Test: 2022–2024 originations
+  + Test: 2022–2024 originations
 
-Prevents temporal leakage common in credit modeling
+  + Prevents temporal leakage common in credit modeling
 
-Class imbalance handling: balanced class weights (training default rate ≈ 55%)
++ **Class imbalance handling:** balanced class weights (training default rate ≈ 55%)
 
-Evaluation metrics: ROC-AUC, Average Precision, calibration diagnostics, and threshold sensitivity
++ **Evaluation metrics:** ROC-AUC, Average Precision, calibration diagnostics, and threshold sensitivity
 
 ## Executive Summary
 
