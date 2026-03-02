@@ -1,7 +1,6 @@
 # Credit-Risk-Modeling-and-Capital-Allocation-in-P2P-Lending
-P2P lending platforms require effective credit risk assessment to balance default risk against expected returns. Using ~410,000 historical loans from Bondora (2009-2024), this analysis develops a machine learning framework to predict loan defaults and optimize portfolio capital allocation strategies for investors operating under limited capital.
 
-Project Background
+## Project Background
 
 Peer-to-peer lending platforms such as Bondora face a fundamental trade-off between expanding loan origination volume and controlling credit risk. Unlike traditional banks, capital on these platforms is often explicitly constrained, making efficient capital deployment as important as accurate default prediction.
 
