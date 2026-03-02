@@ -83,3 +83,71 @@ Model outputs were converted into **expected return, expected loss, and net expe
 
 ![Capital Allocation Efficiency Frontier](images/capital_allocation_efficiency.png)
 _Under binding capital constraints, ranking loans by expected value per euro invested consistently dominates both fixed probability thresholds and absolute expected value selection across all tested budget levels (€25M–€100M)._
+
+## Key Analyses Included
+
++ Feature importance & model interpretability
+
++ Threshold sensitivity analysis (precision–recall trade-offs)
+
++ Comparison against naïve lending baselines
+
++ Expected value–based portfolio construction
+
++ Capital-constrained optimization under multiple budget levels
+
++ Observed default behavior vs. predicted risk
+
+## Key Takeaways
+
++ AUC alone is insufficient — value is created at deployment
+
++ Expected value per euro ranking strictly dominates fixed thresholds under capital constraints
+
++ Smaller, high-efficiency loans materially improve portfolio diversification and ROI
+
++ Ensemble models create the most value at the portfolio level, while logistic regression remains suitable for individual decision explainability
+
+## Limitations & Assumptions
+
++ **Maturity bias:** Test loans (2022–2024) have only 0–3 years of seasoning, reducing observed defaults (29% vs. 55% in training)
+
++ **Feature limitations:** No external credit bureau data (e.g., FICO, payment history)
+
++ **Zero recovery assumption:** Defaults assumed to have zero recovery (conservative)
+
++ **Geographic specificity:** Results reflect five European markets with highly heterogeneous default rates (22–91%)
+
+## Future Work
+
++ Incorporate credit bureau and transaction-level data
+
++ Apply survival analysis for time-to-default modeling
+
++ Use SHAP values for instance-level explainability
+
++ Explore cost-sensitive learning during training
+
++ Conduct fairness and bias audits across demographic and regional segments
+
+## Technologies Used
+
++ Python — data processing, modeling, evaluation
+
++ Scikit-learn — logistic regression, Random Forest
+
++ XGBoost — gradient-boosted trees
+
++ Pandas / NumPy — data manipulation
+
++ Matplotlib / Seaborn — visualization
+
++ Jupyter Notebook — end-to-end reproducible analysis
+
++ GitHub — version control and documentation
+
+## Why This Project Matters
+
+This project demonstrates how machine learning creates measurable economic value when models are evaluated and deployed through a business-first lens. Rather than optimizing predictive metrics in isolation, the analysis shows how credit risk models inform real capital allocation decisions — the difference between a model that looks good on paper and one that materially improves financial performance.
+
+For P2P investors and lending platforms, the difference between systematic and naive lending strategies represents millions in potential profit. This analysis demonstrates how machine learning creates measurable economic value when models are deployed through a business-first lens—transforming credit risk from a compliance exercise into a competitive advantage.
