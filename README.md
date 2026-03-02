@@ -43,25 +43,6 @@ Three supervised learning approaches were evaluated:
 
 ## Executive Summary of Results
 
-### Model Performance
-
-+ Ensemble models achieve **0.72 ROC-AUC** and **0.52 Average Precision**
-
-+ Represents **+11% AUC** and **+27% AP** improvement over logistic regression (0.65 / 0.41)
-
- ![Model Performance Comparison](images/model_performance_comparison.png)
-_Random Forest achieves optimal discrimination (0.72 AUC, 0.52 AP), outperforming XGBoost and logistic regression. Precision-Recall curves (right) are more informative for imbalanced data, showing meaningful improvement in default prediction accuracy._
-
-+ Predictive power is driven primarily by:
-
-  + Interest rate (pricing signal)
-
-  + Credit grade
-
-  + Loan duration
-
-  + Country-level risk differences
-
 ### Business Impact
 
 Model outputs were converted into **expected return, expected loss, and net expected value per loan**, enabling evaluation of real lending strategies:
@@ -85,7 +66,29 @@ Model outputs were converted into **expected return, expected loss, and net expe
 **Key Insight:** Modest improvements in model discrimination translate into **15–45 percentage point gains in ROI** when deployed correctly.
 
 ![Capital Allocation Efficiency Frontier](images/capital_allocation_efficiency.png)
-_Under binding capital constraints, ranking loans by expected value per euro invested consistently dominates both fixed probability thresholds and absolute expected value selection across all tested budget levels (€25M–€100M)._
+_**Figure 1:** Under binding capital constraints, ranking loans by expected value per euro invested consistently dominates both fixed probability thresholds and absolute expected value selection across all tested budget levels (€25M–€100M)._
+
+### Model Performance & Validation
+
+Achieving superior portfolio returns requires models that can reliably discriminate between good and bad loans. Three supervised learning approaches were evaluated with ensemble models demonstrating clear superiority:
+
++ **Random Forest:** 0.72 ROC-AUC, 0.52 Average Precision
++ **XGBoost:** 0.71 ROC-AUC, 0.51 Average Precision  
++ **Logistic Regression:** 0.68 ROC-AUC, 0.47 Average Precision
+
+![Model Performance Comparison](images/model_performance_comparison.png)
+_**Figure 2:** Model discrimination under class imbalance. Ensemble models significantly outperform logistic regression in both ROC-AUC and Average Precision. Precision–Recall curves confirm that gains persist in the minority default class, validating the use of ensemble probability estimates for downstream economic optimization._
+
++ Predictive power is driven primarily by:
+
+  + Interest rate (pricing signal)
+
+  + Credit grade
+
+  + Loan duration
+
+  + Country-level risk differences
+
 
 ## Key Analyses Included
 
