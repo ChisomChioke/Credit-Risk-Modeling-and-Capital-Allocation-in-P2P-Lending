@@ -49,6 +49,9 @@ Three supervised learning approaches were evaluated:
 
 + Represents **+11% AUC** and **+27% AP** improvement over logistic regression (0.65 / 0.41)
 
+ ![Model Performance Comparison](images/model_performance_comparison.png)
+_Random Forest achieves optimal discrimination (0.72 AUC, 0.52 AP), outperforming XGBoost and logistic regression. Precision-Recall curves (right) are more informative for imbalanced data, showing meaningful improvement in default prediction accuracy._
+
 + Predictive power is driven primarily by:
 
   + Interest rate (pricing signal)
