@@ -74,7 +74,7 @@ Achieving superior portfolio returns requires models that can reliably discrimin
 
 + **Random Forest:** 0.72 ROC-AUC, 0.52 Average Precision
 + **XGBoost:** 0.71 ROC-AUC, 0.51 Average Precision  
-+ **Logistic Regression:** 0.68 ROC-AUC, 0.47 Average Precision
++ **Logistic Regression:** 0.65 ROC-AUC, 0.41 Average Precision
 
 ![Model Performance Comparison](images/model_performance_comparison.png)
 _**Figure 2:** Model discrimination under class imbalance. Ensemble models significantly outperform logistic regression in both ROC-AUC and Average Precision. Precision–Recall curves confirm that gains persist in the minority default class, validating the use of ensemble probability estimates for downstream economic optimization._
