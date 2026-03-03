@@ -88,7 +88,7 @@ _**Figure 2:** Model discrimination under class imbalance. Ensemble models signi
   + Loan duration
 
   + Country-level risk differences
-![Feature Importance Comparison](images/feature_importance_ensemble.png)
+![Feature Importance Comparison](ensemble_feature_importance_comparison.png)
 _**Figure 3:** Feature importance across ensemble models. Interest rate dominates both Random Forest and XGBoost predictions, confirming that loan pricing effectively captures underlying credit risk. The convergence on key features (Interest, LoanDuration, ExistingLiabilities) validates model reliability._
 
 ## Key Analyses Included
