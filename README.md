@@ -1,5 +1,17 @@
 # Credit-Risk-Modeling-and-Capital-Allocation-in-P2P-Lending
 
+## Table of Contents
+- [Project Background](#project-background)
+- [Objectives](#objectives)
+- [Modeling Approach](#modeling-approach)
+- [Training & Evaluation Design](#training-&-evaluation-design)
+- [Executive Summary of Results](#executive-summary-of-results)
+- [Key Analyses Included](#key-analyses-included)
+- [Key Takeaways](#key-takeaways)
+- [Limitations & Assumptions](#limitations--assumptions)
+- [Future Work](#future-work)
+- [Technologies Used](#technologies-used)
+
 ## Project Background
 
 Peer-to-peer lending platforms deploy over $150 billion globally but struggle with a fundamental trade-off: expanding loan origination while controlling credit risk. Unlike traditional banks, P2P platforms operate under explicit capital constraints, making efficient capital deployment as critical as accurate default prediction.
@@ -105,6 +117,11 @@ _**Figure 3:** Feature importance across ensemble models. Interest rate dominate
 + Capital-constrained optimization under multiple budget levels
 
 + Observed default behavior vs. predicted risk
+
+The analysis demonstrates clear value creation through systematic selection:
+
+![Strategy ROI Comparison](images/strategy_comparison.png)
+_**Figure 4:** Model-driven selection (28.52% ROI) substantially outperforms all naive strategies. High-interest-only screening suffers from adverse selection (38.5% default rate), while random selection provides minimal benefit over accepting all applications._
 
 ## Key Takeaways
 
