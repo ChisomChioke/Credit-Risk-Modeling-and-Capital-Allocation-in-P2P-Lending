@@ -7,6 +7,7 @@
 - [Training & Evaluation Design](#training--evaluation-design)
 - [Executive Summary of Results](#executive-summary-of-results)
     - [Business Impact](#business-impact)
+    - [Model Performance & Validation](#model-performance--validation)
 - [Key Analyses Included](#key-analyses-included)
 - [Key Takeaways](#key-takeaways)
 - [Limitations & Assumptions](#limitations--assumptions)
