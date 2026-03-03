@@ -1,4 +1,4 @@
-# Credit-Risk-Modeling-and-Capital-Allocation-in-P2P-Lending
+# Credit Risk Modeling and Capital Allocation in P2P Lending
 
 ## Table of Contents
 - [Project Background](#project-background)
