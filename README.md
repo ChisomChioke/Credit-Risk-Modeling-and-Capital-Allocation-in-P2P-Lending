@@ -4,7 +4,7 @@
 - [Project Background](#project-background)
 - [Objectives](#objectives)
 - [Modeling Approach](#modeling-approach)
-- [Training & Evaluation Design](#training-&-evaluation-design)
+- [Training & Evaluation Design](#training--evaluation-design)
 - [Executive Summary of Results](#executive-summary-of-results)
 - [Key Analyses Included](#key-analyses-included)
 - [Key Takeaways](#key-takeaways)
