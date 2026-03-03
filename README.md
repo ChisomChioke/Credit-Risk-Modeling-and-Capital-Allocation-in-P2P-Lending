@@ -8,12 +8,12 @@
 - [Executive Summary of Results](#executive-summary-of-results)
     - [Business Impact](#business-impact)
     - [Model Performance & Validation](#model-performance--validation)
+- [Why This Project Matters](#why-this-project-matters)
 - [Key Analyses Included](#key-analyses-included)
 - [Key Takeaways](#key-takeaways)
 - [Limitations & Assumptions](#limitations--assumptions)
 - [Future Work](#future-work)
 - [Technologies Used](#technologies-used)
-- [Why This Project Matters](#why-this-project-matters)
 
 ## Project Background
 
@@ -112,7 +112,13 @@ _**Figure 2:** Model discrimination under class imbalance. Ensemble models signi
   + Country-level risk differences
 
 ![Feature Importance Comparison](images/ensemble_feature_importance_comparison.png)
-_**Figure 3:** Feature importance across ensemble models. Interest rate dominates both Random Forest and XGBoost predictions, confirming that loan pricing effectively captures underlying credit risk. The convergence on key features (Interest, LoanDuration, ExistingLiabilities) validates model reliability._
+_**Figure 3:** Feature importance across ensemble models. Loan pricing (Interest), credit grade (Rating), and loan structure (LoanDuration) consistently dominate predictions across models, confirming convergence on core credit risk drivers._
+
+## Why This Project Matters
+
+This project demonstrates how machine learning creates measurable economic value when models are evaluated and deployed through a business-first lens. Rather than optimizing predictive metrics in isolation, the analysis shows how credit risk models inform real capital allocation decisions — the difference between a model that looks good on paper and one that materially improves financial performance.
+
+For P2P investors and lending platforms, the difference between systematic and naive lending strategies represents millions in potential profit. This analysis demonstrates how machine learning creates measurable economic value when models are deployed through a business-first lens — transforming credit risk from a compliance exercise into a competitive advantage.
 
 ## Key Analyses Included
 
@@ -180,9 +186,3 @@ _**Figure 4:** Model-driven selection (28.52% ROI) substantially outperforms all
 + Jupyter Notebook — end-to-end reproducible analysis
 
 + GitHub — version control and documentation
-
-## Why This Project Matters
-
-This project demonstrates how machine learning creates measurable economic value when models are evaluated and deployed through a business-first lens. Rather than optimizing predictive metrics in isolation, the analysis shows how credit risk models inform real capital allocation decisions — the difference between a model that looks good on paper and one that materially improves financial performance.
-
-For P2P investors and lending platforms, the difference between systematic and naive lending strategies represents millions in potential profit. This analysis demonstrates how machine learning creates measurable economic value when models are deployed through a business-first lens — transforming credit risk from a compliance exercise into a competitive advantage.
