@@ -80,7 +80,9 @@ Model outputs were converted into **expected return, expected loss, and net expe
 
 ![Capital Allocation Efficiency Frontier](images/capital_allocation_efficiency.png)
 _**Figure 1:** Under binding capital constraints, ranking loans by expected value per euro invested consistently dominates both fixed probability thresholds and absolute expected value selection across all tested budget levels (€25M–€100M)._
+
 ---
+
 ![Capital Allocation Comparison](images/capital_allocation_comparison_table.png)
 _**Table 1:** Capital allocation strategy performance across budget levels. Expected value per euro ranking consistently outperforms absolute EV ranking, achieving both higher ROI and greater loan diversification._
 
