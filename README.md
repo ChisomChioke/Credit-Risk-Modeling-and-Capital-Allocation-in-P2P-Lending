@@ -23,7 +23,7 @@ This project analyzes ~410,000 historical consumer loans (2009–2024) to develo
 
 The project is designed to mirror how credit models are evaluated and deployed in professional lending environments: beginning with interpretable baselines, progressing to advanced ensemble models, and ultimately embedding predictions into decision strategies that maximize return on capital.
 
-All code, data processing steps, and detailed methodology can be found here: [GitHub Repository: Bondora Credit Risk Analysis](https://github.com/ChisomChioke/Credit-Risk-Modeling-and-Capital-Allocation-in-P2P-Lending/blob/main/Bondora_P2P_Lending_Project.ipynb)
+All code, data processing steps, and detailed methodology can be found here: [GitHub Repository: Bondora Credit Risk Analysis](https://github.com/ChisomChioke/Credit-Risk-Modeling-and-Capital-Allocation-in-P2P-Lending/blob/main/Bondora_P2P_Lending_Project.ipynb), and a one-page summary is contained in this document: [Summary: Bondora Credit Risk Analysis](https://drive.google.com/file/d/1wCHCl68QhohyY__U6K_cSh8gBmKT_qJF/view)
 
 ## Objectives
 
